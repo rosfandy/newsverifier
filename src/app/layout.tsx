@@ -6,8 +6,8 @@ const inter = Inter({ subsets: ["latin"] });
 const poppins = Poppins({ subsets: ["latin"], weight: ["100", "200", "300", "400", "500", "600", "700"] });
 
 export const metadata: Metadata = {
-  title: "Gold Insight",
-  description: "Predicted Gold App",
+  title: "News Verifier",
+  description: "Verify News App",
 };
 
 export default function RootLayout({
