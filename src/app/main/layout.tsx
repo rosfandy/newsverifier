@@ -13,9 +13,9 @@ export default function DashboardLayout({ children }: LayoutProps) {
     return (
         <div className="bg-slate-50">
             <div className="flex">
-                <div className="md:inline hidden">
+                {/* <div className="md:inline hidden">
                     <Sidebar />
-                </div>
+                </div> */}
                 <div className="w-full flex flex-col gap-y-4">
                     <Navbar />
                     {children}
