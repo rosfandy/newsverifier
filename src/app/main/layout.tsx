@@ -11,7 +11,7 @@ export default function DashboardLayout({ children }: LayoutProps) {
     const [showSidebar, setShowSidebar] = useState(false);
 
     return (
-        <div className="bg-slate-50">
+        <div className="min-h-screen bg-gradient-to-r from-blue-500 to-purple-700">
             <div className="flex">
                 {/* <div className="md:inline hidden">
                     <Sidebar />

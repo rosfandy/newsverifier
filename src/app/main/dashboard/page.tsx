@@ -56,8 +56,8 @@ export default function Forecast() {
 
     return (
         <div className="">
-            <div className="flex flex-col md:px-32 px-8 gap-y-4">
-                <h1 className="md:text-2xl font-[500]">Analyzer</h1>
+            <div className="flex flex-col md:px-32 px-8 gap-y-4 justify-center items-center min-h-[50vh]">
+                <h1 className="md:text-2xl font-[500] text-center text-white">Analyzer</h1>
                 <div className="bg-white shadow-md rounded-md p-4">
                     <div className="flex justify-center">
                         <h1>Masukkan url berita</h1>

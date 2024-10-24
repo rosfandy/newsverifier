@@ -16,7 +16,7 @@ export default function Navbar() {
                     <Sidebar />
                 </div>
             </div>
-            <div className="flex w-full md:justify-end justify-between items-center py-4 md:px-32 px-8 shadow bg-white">
+            <div className="flex w-full md:justify-end justify-between items-center py-4 md:px-32 px-8 ">
                 <div
                     onClick={() => setIsMenu(true)}
                     className="md:hidden"
@@ -24,7 +24,7 @@ export default function Navbar() {
                     <AiOutlineMenu size={20} />
                 </div>
                 <Link href="/">
-                    <button className="bg-blue-500 px-6 py-3 rounded-3xl text-white text-xs hover:bg-blue-600 duration-200">Home</button>
+                    <button className="bg-white px-6 py-3 rounded-3xl text-black text-xs hover:bg-blue-600 duration-200">Home</button>
                 </Link>
             </div>
         </div>
