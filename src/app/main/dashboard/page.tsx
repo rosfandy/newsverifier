@@ -5,8 +5,8 @@ import { useState, useEffect, FormEvent } from "react";
 // Dynamic import for ReactApexChart
 
 interface NewsData {
-    "news_title": string;
-    "result": string;
+    "title": string;
+    "prediction": string;
     "accuracy": number;
 }
 
@@ -81,11 +81,11 @@ export default function Forecast() {
                             <div className="flex flex-col justify-center gap-x-4">
                                 <div className="flex flex-col md:text-center text-gray-400 ">
                                     Title
-                                    <div className="flex text-black font-semibold md:text-[18px] md:justify-center"><span>{data.news_title}</span></div>
+                                    <div className="flex text-black font-semibold md:text-[18px] md:justify-center"><span>{data.title}</span></div>
                                 </div>
                                 <div className="flex flex-col md:text-center text-gray-400 ">
                                     Result
-                                    <div className="flex text-black font-semibold md:text-[18px] md:justify-center"><span>{data.result}</span></div>
+                                    <div className="flex text-black font-semibold md:text-[18px] md:justify-center"><span>{data.prediction}</span></div>
                                 </div>
                                 <div className="flex flex-col md:text-center text-gray-400 ">
                                     Accuracy
